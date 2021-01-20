@@ -1,0 +1,81 @@
+.bg-nav{
+    background-image:linear-gradient(to left top,rgb(70, 233, 70),rgb(31, 224, 134));
+}
+
+.fa-piggy-bank,.fa-university{
+    font-size: 200%;
+}
+
+.table{
+   margin:100px auto;
+   width:500px;
+}
+
+tr:hover{
+    transition:.1s;
+    transform:scale(1.01);
+}
+
+.active{
+    border:solid 1px blue;
+    background-color:rgb(28, 167, 172);
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.nav-item:hover{
+    border:solid 1px rgb(8, 117, 121);
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+th,td{
+    border-left:solid 1px rgb(177, 172, 172);
+    padding-left:30px;
+}
+
+.light-green{
+    background-image: linear-gradient(to left,rgb(10, 156, 240),rgb(50, 235, 164));
+}
+
+body{
+    padding-bottom:0px;
+}
+
+.box1,.box2{
+    height:100px;
+    width:100px;
+    border:2px solid green;
+    position:absolute;
+    opacity:.3;
+    
+}
+
+
+img{
+    height:60%;
+    width:50%;
+    border:solid 2px;
+    border-radius:50%;
+    display:inline-block;
+    margin:20px;
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+}
+.bg-info{
+    background-image:radial-gradient(rgb(89, 89, 228),rgb(12, 193, 238));
+}
+
+form{
+    margin:150px;
+}
+.form-group{
+    margin:15px;
+}
+
+#send{
+    margin-left:40%;
+}
